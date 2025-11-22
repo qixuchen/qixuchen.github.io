@@ -1,0 +1,166 @@
+{
+  "personal": {
+    "name": "Qixu Chen",
+    "title": "CS PhD Candidate",
+    "affiliation": "The Hong Kong University of Science and Technology",
+    "location": "Hong Kong, Hong Kong SAR",
+    "email": "qchenax@connect.ust.hk",
+    "bio": [
+      "I am a CS PhD candidate at The Hong Kong University of Science and Technology (HKUST), specializing in data management and human-in-the-loop systems. My research focuses on improving data quality through novel constraint-based approaches and developing robust methods for handling unreliable user feedback in database systems.",
+      "I have published papers in top-tier database conferences including SIGMOD, VLDB, and ICDE. I am also a recipient of the prestigious Hong Kong PhD Fellowship Scheme."
+    ],
+    "research_interests": [
+      "Data Management",
+      "Data Quality",
+      "Human-in-the-Loop Systems",
+      "Error Detection",
+      "User Interaction in Databases"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Doctor of Philosophy - PhD",
+      "field": "Computer Science",
+      "institution": "The Hong Kong University of Science and Technology",
+      "location": "Hong Kong",
+      "start_date": "Sep 2021",
+      "end_date": "Jul 2025",
+      "details": []
+    },
+    {
+      "degree": "Bachelor's Degree",
+      "field": "Computer Science",
+      "institution": "The Hong Kong University of Science and Technology",
+      "location": "Hong Kong",
+      "start_date": "Sep 2016",
+      "end_date": "Jun 2020",
+      "details": [
+        "GPA: 4.0/4.3"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Research Intern",
+      "organization": "A*STAR - Agency for Science, Technology and Research",
+      "type": "Part-time",
+      "location": "Singapore (Remote)",
+      "start_date": "Aug 2024",
+      "end_date": "Apr 2025",
+      "description": "Conducted research on improving the performance of machine remaining-useful-life prediction models in federated settings through knowledge distillation from LLM.",
+      "skills": ["Python"]
+    },
+    {
+      "title": "Research Intern",
+      "organization": "Microsoft",
+      "type": "Full-time",
+      "location": "Redmond, Washington, United States (Remote)",
+      "start_date": "Jul 2023",
+      "end_date": "Feb 2024",
+      "description": "Conducted research on developing novel data quality constraints for reliably detecting potential errors in generic user tables.",
+      "skills": ["Python"]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables",
+      "authors": ["Qixu Chen"],
+      "venue": "Proceedings of the 2025 International Conference on Management of Data (SIGMOD)",
+      "year": 2025,
+      "date": "Jun 23, 2025",
+      "type": "Conference",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "code": "",
+        "bibtex": ""
+      }
+    },
+    {
+      "title": "Robust Best Point Selection under Unreliable User Feedback",
+      "authors": ["Qixu Chen"],
+      "venue": "50th International Conference on Very Large Databases (VLDB)",
+      "year": 2024,
+      "date": "Jun 30, 2024",
+      "type": "Conference",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "code": "",
+        "bibtex": ""
+      }
+    },
+    {
+      "title": "Finding Best Tuple via Error-prone User Interaction",
+      "authors": ["Qixu Chen"],
+      "venue": "2023 IEEE 39th International Conference on Data Engineering (ICDE)",
+      "year": 2023,
+      "date": "Jul 26, 2023",
+      "type": "Conference",
+      "links": {
+        "pdf": "",
+        "arxiv": "",
+        "code": "",
+        "bibtex": ""
+      }
+    }
+  ],
+  "awards": [
+    {
+      "title": "Outstanding PGTA Honorable Mention",
+      "organization": "The Hong Kong University of Science and Technology",
+      "date": "Sep 2025",
+      "description": ""
+    },
+    {
+      "title": "Redbird Academic Excellence Award",
+      "organization": "The Hong Kong University of Science and Technology",
+      "date": "Jul 2025",
+      "description": ""
+    },
+    {
+      "title": "Hong Kong PhD Fellowship Scheme",
+      "organization": "Research Grants Council (RGC) of Hong Kong",
+      "date": "Sep 2021",
+      "description": "One of the most prestigious PhD fellowship in Hong Kong"
+    },
+    {
+      "title": "Academic Achievement Medal",
+      "organization": "The Hong Kong University of Science and Technology",
+      "date": "Jun 2020",
+      "description": "Award for top 1% graduates of the university"
+    }
+  ],
+  "social_links": {
+    "email": "qchenax@connect.ust.hk",
+    "google_scholar": "https://scholar.google.com/citations?user=_GCwT5kAAAAJ&hl=en",
+    "github": "https://github.com/qixuchen",
+    "linkedin": "https://www.linkedin.com/in/qixu-chen-48b46a2bb/"
+  },
+  "news": [
+    {
+      "date": "Jun 2025",
+      "content": "Paper accepted to SIGMOD 2025!"
+    },
+    {
+      "date": "Sep 2025",
+      "content": "Received Outstanding PGTA Honorable Mention from HKUST."
+    },
+    {
+      "date": "Jul 2025",
+      "content": "Received Redbird Academic Excellence Award from HKUST."
+    },
+    {
+      "date": "Jun 2024",
+      "content": "Paper accepted to VLDB 2024!"
+    },
+    {
+      "date": "Aug 2024",
+      "content": "Started research internship at A*STAR, Singapore."
+    },
+    {
+      "date": "Jul 2023",
+      "content": "Started research internship at Microsoft."
+    }
+  ]
+}
