@@ -65,3 +65,23 @@ document.querySelectorAll('.section').forEach(section => {
     section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(section);
 });
+
+// Email obfuscation to prevent spam
+document.addEventListener('DOMContentLoaded', function() {
+    const emailUser = 'qchenax';
+    const emailDomain = 'connect.ust.hk';
+    const emailAddress = emailUser + '@' + emailDomain;
+
+    // Update email link in About section
+    const emailLink = document.getElementById('email-link');
+    if (emailLink) {
+        emailLink.href = 'mailto:' + emailAddress;
+    }
+
+    // Update email display in Contact section
+    const contactEmail = document.getElementById('contact-email');
+    if (contactEmail) {
+        contactEmail.textContent = emailAddress;
+    }
+});
+
