@@ -1,0 +1,2 @@
+# plan
+I want to create a personal website that follows some github io template. It should have common blocks such as about me, news, publications, cv, etc. It should provide a quick access bar at the top that quickly navigates to these fields. Before I provide you details to fill in these blocks, you could create some template entries that serves as placeholder.
