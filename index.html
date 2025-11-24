@@ -3,31 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qixu Chen - Personal Website</title>
+    <title>Qixu Chen</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav id="navbar">
         <div class="nav-container">
-            <div class="nav-logo">Qixu Chen</div>
+            <div class="nav-logo"><a href="index.html" style="text-decoration: none; color: inherit;">Qixu Chen</a></div>
             <ul class="nav-menu">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#news" class="nav-link">News</a></li>
-                <li><a href="#publications" class="nav-link">Publications</a></li>
-                <li><a href="#cv" class="nav-link">CV</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="index.html" class="nav-link active">About</a></li>
+                <li><a href="news.html" class="nav-link">News</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="cv.html" class="nav-link">CV</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- About Section -->
-    <section id="about" class="section">
+    <section class="section">
         <div class="container">
             <div class="about-content">
-                <div class="profile-image">
-                    <img src="personal_info/portrait.jpg" alt="Profile Photo">
-                </div>
                 <div class="about-text">
                     <h1>Qixu Chen</h1>
                     <p class="subtitle">CS PhD Candidate</p>
@@ -49,180 +46,9 @@
                         <a href="https://www.linkedin.com/in/qixu-chen-48b46a2bb/" class="social-link">LinkedIn</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- News Section -->
-    <section id="news" class="section section-gray">
-        <div class="container">
-            <h2 class="section-title">News</h2>
-            <div class="news-list">
-                <div class="news-item">
-                    <span class="news-date">[Sep 2025]</span>
-                    <span class="news-content">Received Outstanding PGTA Honorable Mention from HKUST.</span>
+                <div class="profile-image">
+                    <img src="personal_info/portrait.jpg" alt="Profile Photo">
                 </div>
-                <div class="news-item">
-                    <span class="news-date">[Jul 2025]</span>
-                    <span class="news-content">Received Redbird Academic Excellence Award from HKUST.</span>
-                </div>
-                <div class="news-item">
-                    <span class="news-date">[Jun 2025]</span>
-                    <span class="news-content">Paper accepted to SIGMOD 2025!</span>
-                </div>
-                <div class="news-item">
-                    <span class="news-date">[Jun 2024]</span>
-                    <span class="news-content">Paper accepted to VLDB 2024!</span>
-                </div>
-                <div class="news-item">
-                    <span class="news-date">[Aug 2024]</span>
-                    <span class="news-content">Started research internship at A*STAR, Singapore.</span>
-                </div>
-                <div class="news-item">
-                    <span class="news-date">[Jul 2023]</span>
-                    <span class="news-content">Started research internship at Microsoft.</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Publications Section -->
-    <section id="publications" class="section">
-        <div class="container">
-            <h2 class="section-title">Publications</h2>
-
-            <h3 class="pub-year">2025</h3>
-            <div class="publication">
-                <div class="pub-title">Auto-Test: Learning Semantic-Domain Constraints for Unsupervised Error Detection in Tables</div>
-                <div class="pub-authors"><strong>Qixu Chen</strong></div>
-                <div class="pub-venue">Proceedings of the 2025 International Conference on Management of Data (SIGMOD 2025)</div>
-                <div class="pub-links">
-                    <a href="#" class="pub-link">PDF</a>
-                    <a href="#" class="pub-link">Code</a>
-                    <a href="#" class="pub-link">BibTeX</a>
-                </div>
-            </div>
-
-            <h3 class="pub-year">2024</h3>
-            <div class="publication">
-                <div class="pub-title">Robust Best Point Selection under Unreliable User Feedback</div>
-                <div class="pub-authors"><strong>Qixu Chen</strong></div>
-                <div class="pub-venue">50th International Conference on Very Large Databases (VLDB 2024)</div>
-                <div class="pub-links">
-                    <a href="#" class="pub-link">PDF</a>
-                    <a href="#" class="pub-link">Code</a>
-                    <a href="#" class="pub-link">BibTeX</a>
-                </div>
-            </div>
-
-            <h3 class="pub-year">2023</h3>
-            <div class="publication">
-                <div class="pub-title">Finding Best Tuple via Error-prone User Interaction</div>
-                <div class="pub-authors"><strong>Qixu Chen</strong></div>
-                <div class="pub-venue">2023 IEEE 39th International Conference on Data Engineering (ICDE 2023)</div>
-                <div class="pub-links">
-                    <a href="#" class="pub-link">PDF</a>
-                    <a href="#" class="pub-link">Code</a>
-                    <a href="#" class="pub-link">BibTeX</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CV Section -->
-    <section id="cv" class="section section-gray">
-        <div class="container">
-            <h2 class="section-title">Curriculum Vitae</h2>
-
-            <div class="cv-download">
-                <a href="#" class="btn-download">Download Full CV (PDF)</a>
-            </div>
-
-            <h3 class="cv-section-title">Education</h3>
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">Ph.D. in Computer Science</span>
-                    <span class="cv-item-date">Sep 2021 - Jul 2025</span>
-                </div>
-                <div class="cv-item-subtitle">The Hong Kong University of Science and Technology</div>
-                <div class="cv-item-detail">Hong Kong PhD Fellowship Scheme Recipient</div>
-            </div>
-
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">B.S. in Computer Science</span>
-                    <span class="cv-item-date">Sep 2016 - Jun 2020</span>
-                </div>
-                <div class="cv-item-subtitle">The Hong Kong University of Science and Technology</div>
-                <div class="cv-item-detail">GPA: 4.0/4.3</div>
-            </div>
-
-            <h3 class="cv-section-title">Professional Experience</h3>
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">Research Intern</span>
-                    <span class="cv-item-date">Aug 2024 - Apr 2025</span>
-                </div>
-                <div class="cv-item-subtitle">A*STAR - Agency for Science, Technology and Research (Part-time, Remote)</div>
-                <div class="cv-item-detail">Research on improving machine remaining-useful-life prediction models in federated settings through knowledge distillation from LLM</div>
-            </div>
-
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">Research Intern</span>
-                    <span class="cv-item-date">Jul 2023 - Feb 2024</span>
-                </div>
-                <div class="cv-item-subtitle">Microsoft (Full-time, Remote)</div>
-                <div class="cv-item-detail">Research on developing novel data quality constraints for reliably detecting potential errors in generic user tables</div>
-            </div>
-
-            <h3 class="cv-section-title">Awards & Honors</h3>
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">Outstanding PGTA Honorable Mention</span>
-                    <span class="cv-item-date">Sep 2025</span>
-                </div>
-                <div class="cv-item-subtitle">The Hong Kong University of Science and Technology</div>
-            </div>
-
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">Redbird Academic Excellence Award</span>
-                    <span class="cv-item-date">Jul 2025</span>
-                </div>
-                <div class="cv-item-subtitle">The Hong Kong University of Science and Technology</div>
-            </div>
-
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">Hong Kong PhD Fellowship Scheme</span>
-                    <span class="cv-item-date">Sep 2021</span>
-                </div>
-                <div class="cv-item-subtitle">Research Grants Council (RGC) of Hong Kong</div>
-                <div class="cv-item-detail">One of the most prestigious PhD fellowship in Hong Kong</div>
-            </div>
-
-            <div class="cv-item">
-                <div class="cv-item-header">
-                    <span class="cv-item-title">Academic Achievement Medal</span>
-                    <span class="cv-item-date">Jun 2020</span>
-                </div>
-                <div class="cv-item-subtitle">The Hong Kong University of Science and Technology</div>
-                <div class="cv-item-detail">Award for top 1% graduates of the university</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <span id="contact-email"></span></p>
-                <p><strong>Location:</strong> Hong Kong, Hong Kong SAR</p>
-                <p><strong>Institution:</strong> The Hong Kong University of Science and Technology<br>
-                   Department of Computer Science and Engineering<br>
-                   Clear Water Bay, Kowloon, Hong Kong</p>
             </div>
         </div>
     </section>
