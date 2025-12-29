@@ -1,12 +1,12 @@
 {
   "personal": {
     "name": "Qixu Chen",
-    "title": "CS PhD Candidate",
-    "affiliation": "The Hong Kong University of Science and Technology",
+    "title": "Researcher",
+    "affiliation": "Huawei Hong Kong Research Center",
     "location": "Hong Kong, Hong Kong SAR",
     "email": "qchenax@connect.ust.hk",
     "bio": [
-      "I am a CS PhD candidate at The Hong Kong University of Science and Technology (HKUST), specializing in data management and human-in-the-loop systems. My research focuses on improving data quality through novel constraint-based approaches and developing robust methods for handling unreliable user feedback in database systems.",
+      "I am currently a senior SDE at Huawei Hong Kong Research Center. I received my Ph.D. degree from CSE Department, HKUST, adviced by Prof. Raymond Chi-Wing Wong. Previously, I interned at MSR, working with Dr. Yeye He on anomaly detection-related topics.",
       "I have published papers in top-tier database conferences including SIGMOD, VLDB, and ICDE. I am also a recipient of the prestigious Hong Kong PhD Fellowship Scheme."
     ],
     "research_interests": [
@@ -132,7 +132,6 @@
     }
   ],
   "social_links": {
-    "email": "qchenax@connect.ust.hk",
     "google_scholar": "https://scholar.google.com/citations?user=_GCwT5kAAAAJ&hl=en",
     "github": "https://github.com/qixuchen",
     "linkedin": "https://www.linkedin.com/in/qixu-chen-48b46a2bb/"
